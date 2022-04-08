@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.text.DecimalFormat;
 
-public class Mealplan extends JFrame {
+public class Planner extends JFrame {
 	DecimalFormat df = new DecimalFormat("#.##"); // implements DecimalFormat.
 	private double Ashokan;
 	private double Awosting;
@@ -29,7 +29,7 @@ public class Mealplan extends JFrame {
 	/**
 	 * Main method.
 	 */
-	public Mealplan() {
+	public Planner() {
 		setTitle("New Paltz Plans");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLayout(new BorderLayout());
@@ -151,7 +151,7 @@ public class Mealplan extends JFrame {
 	 * Main method.
 	 */
 	public static void main(String[] args) {
-		Mealplan plan = new Mealplan();
+		Planner plan = new Planner();
 
 	}
 }
